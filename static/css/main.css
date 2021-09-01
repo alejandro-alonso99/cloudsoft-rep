@@ -1,0 +1,1437 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes animate{
+    0%{
+        background-position-x: 0;
+    }
+
+    100%{
+        background-position-x: -1000px;
+    }
+}
+
+@keyframes animate2{
+    0%{
+        background-position-x: 0;
+    }
+
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes pulse{
+    0% {transform: scale(1);}
+
+    50%{transform: scale(1.1);}
+
+    100%{transform: scale(1);}
+
+}
+
+@keyframes drop-in {
+    20% {
+        opacity: 0;
+        transform: translateY(-20%);
+    }
+    30%, 100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+b{
+    text-decoration: none;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    overflow-x:hidden;
+}
+ 
+#page-link{
+    text-decoration: none;
+    color: unset;
+    margin: unset;
+}
+
+.navbar-top{
+    top: 0;
+    position: absolute;
+    text-align: center; 
+    padding: 0;
+    width: 100vw;
+    height: fit-content;
+    color: #222222;
+    font-weight: lighter;
+    z-index: 10000;
+    transition: all 0.2s;
+    background: transparent;
+}
+
+#message-cont{
+    position: absolute;
+    top: 0%;
+    z-index: 1000000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.navbar-top ul{
+    list-style-type:none;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+#links{
+    margin-right: 15vw;
+    cursor: pointer;
+}
+
+.nav-element{
+    display: inline;
+    float: right;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    margin-right: 2vw;
+    transition: all 0.3s;
+    margin-bottom: 15px;
+}
+
+#contact-btn {
+    text-align: center;
+    color: #ffffff;
+    border-radius: 40px;
+    font-weight: bolder;
+    width: fit-content;
+    transition: all 0.3s;
+}
+
+#contact-btn:hover{
+    color: #222222;
+    transform: translateX(-10%);
+}
+
+.nav-element:hover{
+    color: #DFEAEF;
+    transform: translateX(-10%)
+}
+
+#brand-title{
+    margin-left: 25vw;
+    margin-bottom: 15px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5vw;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#brand-title i{
+    color: #DFEAEF;
+    transition: all 0.3s;
+}
+
+#brand-title:hover {
+    color: #DFEAEF;
+    transform: translateX(-10%);
+}
+
+#brand-title:hover i{
+    color: #222222;
+}
+
+
+span {
+    color: #43B9DD;
+}
+
+#cf{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/static/images/bg\ 1.jpg);
+    background-position:right;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#main {
+    background-color:#000000;
+    overflow: hidden;
+    color: #222222;
+    height: fit-content;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#main-hero{
+    padding: 10vw;
+}
+
+#main-title {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 3vw 5vw;
+    width: 50vw;
+    height: max-content;
+    border-radius: 10px;
+    transition: all 1s;
+    margin-left: -5vw;
+}
+
+#main-title h1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 3.5vw;
+    color: #222222;
+    margin-bottom: 2vh;
+    font-weight: bold;
+}
+
+#main-title h2{
+    font-size: 3vw;
+    font-weight: lighter;
+    margin-bottom: 5vh;
+    color: #222222;
+}
+
+#main-button {
+    font-size: 1.5vw;
+    width: fit-content;
+    text-align: left;
+    font-weight: bolder;
+    color: #2ec5ce;
+    border: none;
+    border-radius: 10px;
+    background-color: #222222;
+    transition: width 1s;
+}
+
+#main-button:hover {
+    color: #009cff;
+    background-color: #ffffff;
+    width: fit-content
+}
+
+#main-button a > i{
+    margin-left: 1vw;
+    font-size: 1.1vw;
+    transition: all 0.4s;
+}
+
+#main-button:hover a > i{
+    margin-left: 4vw;
+}
+
+#main-svg{
+    height: 30vw;
+    width: auto;
+    animation: pulse 6s forwards infinite ease-in-out;
+    margin-left: 7vw;
+    padding-bottom: 6vw;
+}
+
+#arrow-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 6vw;
+    height: 6vw;
+    bottom: 20%;
+    left:50%;
+    margin-left: -3vw;
+}
+
+#main-arrow{
+    width: fit-content;
+    font-size: 1.8vw;
+    color: #000000;
+    animation: pulse 1.5s forwards infinite ease-in-out;
+}
+
+#main .wave1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: url("/static/images/wave.png");
+    background-size: 1000px 150px;
+}
+
+.wave1.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+} 
+
+.wave1.wave2{
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+} 
+
+.wave1.wave3{
+    animation: animate 15s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+} 
+
+.wave1.wave4{
+    animation: animate2 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+} 
+
+#about {
+    position: relative;
+    background-color: #ffffff;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 10vh 0;
+}
+
+#about-text{
+    position: relative;
+    width: 60vw;
+    margin-right: 0;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    z-index: 100;
+}
+
+#about h1 {
+    color: #000000;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+#about h2 {
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+#about h3 {
+    margin: 2vh 0;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+#about h4{
+    font-weight: 600;
+}
+
+#about hr{
+    width: 50%;
+    margin: 3vh auto;
+    height: 2px;
+}
+
+#circle{
+    position: absolute;
+    top: 0;
+    left:50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    z-index: 0;
+}
+
+#circle-img{
+ width: 500px;
+ opacity: 0.6;
+}
+
+#services{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    background-color: #ffffff;
+    height: fit-content;
+}
+
+#service-title{
+    color: #0B0D17;
+    width: 50vw;
+    margin:auto;
+    font-size: 3.5vw;
+    margin-top: 5vh;
+    margin-bottom: 2rem;
+}
+
+#service-container{
+    margin: auto;
+    width: 94vw;
+    height: 60vh;
+    padding: 0;
+    background-color: #ffffff;
+    height: fit-content;
+}
+
+#cards-container{
+    width: fit-content;
+    margin: auto;
+    padding: 3vw;
+    text-align: left;
+}
+
+#service-card{
+    color: #222222;
+    padding: 1vw 1vw;
+    margin: 2vw 1vw;
+    width: 20vw;
+    height: fit-content;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0,0.2);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+#service-card:hover{
+    transform: translateY(-10%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,0.4);
+    cursor: pointer;
+    
+}
+
+#bottom-button {
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    font-size: 1.3vw;
+    color: #ffffff;
+    padding: 0.5vw;
+    text-transform: uppercase;
+    margin-bottom: 3vw;
+}
+
+#service-card-button{
+    border: none;
+    color: #43B9DD;
+    font-weight:400;
+    background: transparent;
+    font-size: 1.1vw;
+    margin-top: 1rem;
+}
+
+#service-card-button a > i{
+    font-size: 1vw;
+    transition: all 0.5s;
+    margin-left: 5px;
+}
+
+#service-card-button:hover a > i{
+    margin-left: 1rem;
+}
+
+#service-card svg{
+    width: 5vw;
+    height: 4vw;
+}
+
+#service-card h1{
+    font-size: 1.5vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#service-card h2{
+    height: 7vw;
+    font-size: 1.2vw;
+    font-weight:lighter
+}
+
+#workways{
+    overflow-x: hidden;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#workways h2{
+    font-size: 1.2vw;
+    font-weight: lighter;
+}
+
+#func-title{
+    width: 80vw;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 2.5rem;
+}
+
+#func-title h1{
+    color: #222222;
+    font-size: 3vw;
+}
+
+#func-title-h2{
+    font-size: 2vw !important;
+    font-weight: lighter;
+    color: #43B9DD;
+}
+
+#row-1{
+    padding: 0 5vw;
+    margin-bottom:5rem;
+}
+
+#row-2{
+    padding: 0 5vw;
+    margin-bottom: 5vw;
+}
+
+#func-container{
+    padding: 0 1vw;
+}
+
+#func-container svg{
+    margin-bottom: 1.5rem;
+}
+
+#func-container h1{
+    margin-bottom: 1rem;
+    font-weight: lighter;
+    color: #0B0D17;
+    font-size: 1.8vw;
+}
+
+#contact{
+    height: fit-content;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+#contact-banner{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+    background-image: url(/static/images/bg\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact-banner-h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 3vw;
+    font-weight: lighter;
+    background-color: transparent;
+}
+
+#contact-form-container{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contact-form-box{
+    width: 40vw;
+    background: #ffffff;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0,0.2);
+    margin-bottom: 10vh;
+    font-size: 1vw;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+#contact-form-box h1 {
+    color: #222222;
+    font-weight: lighter;
+    font-size: 2.5vw;
+    margin: 2vh;
+    margin-top: 4vh;
+}
+
+#contact input {
+    font-size: 1.2vw;
+    color: #000000;
+    border: none;
+    margin: 0 2.5vw;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0,0.2);
+    width: 35vw;
+    height: fit-content;
+    padding: 0.5vw;
+    margin-bottom: 3vh;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+#contact textarea:focus,input:focus,select:focus{
+    outline: none;
+    transform: translateY(-13%);
+    box-shadow:2px 1px 20px rgba(0, 0, 0,0.8);
+}
+
+#contact select {
+    border: none;
+    font-size: 1.2vw;
+    color: #000000;
+    margin: 0 2.5vw;
+    width: 35vw;
+    height: fit-content;
+    padding: 0.5vw;
+    background: #ffffff;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0,0.2);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+
+#contact textarea{
+    font-size: 1.2vw;
+    color: #000000;
+    border: none;
+    width: 35vw;
+    height: 15vh;
+    padding: 1rem;
+    margin: 3vh 2.5vw;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0,0.2);
+    border-radius: 10px;
+    transition: all 0.5s;
+    resize: none;
+}
+
+#button-wrapper{
+    text-align: center;
+}
+
+.contact-button{
+    border: none;
+    font-size: 1vw;
+    margin-bottom:3vh;
+    font-weight: bolder;
+    background-color: #ffffff;
+    color: #222222;
+    transition: all 0.5s;
+}
+
+.contact-button:hover{
+    background-color: #43b9dd8a !important;
+    color: #ffffff;
+}
+
+#form-info{
+    width: 35vw;
+    text-align: left;
+    background: #43b9dd8a;
+    padding: 2vh;
+    border-radius: 10px;
+    margin: 0 2.5vw;
+    margin-bottom: 3vh;
+    color: #ffffff;
+}
+
+#form-info h1{
+    font-size: 1.6vw;
+    margin: 2vh 2vw;
+}
+
+#contact ul{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin: 2vh 2vw;
+    list-style-type: decimal;
+}
+
+#contact li{
+    font-weight: lighter;
+    font-size: 1.2vw;
+    margin: 1rem;
+}
+
+
+
+@media (max-width: 1200px) {
+
+    #main{
+        height: fit-content;
+    }
+
+    #main-hero{
+        margin-top: -20%;
+    }
+
+    .nav-element{
+        font-size: 2vw;
+    }
+
+    #contact-btn{
+        width: fit-content;
+        font-size: 2vw;
+    }
+
+    #main-svg{
+        height: 35vw;
+    }
+
+    #brand-title{
+        font-size: 2vw;
+        margin-left: 20vw;
+    }
+
+    #main-title h1{
+        font-size: 4vw
+    }
+
+    #main-title h2{
+        font-size: 3vw;
+    }
+
+    #main-button{
+        font-size: 2vw;
+    }
+
+    #arrow-container{
+        margin-left: 1.5;
+    }
+
+    #main-arrow{
+        font-size: 3vw;
+    }
+
+    #about h1{
+        font-size: 2.5vw;
+    }
+
+    #about h2{
+        font-size: 2.5vw;
+    }
+
+    #about h4 {
+        font-size: 2vw;
+    }
+
+    #circle{
+        margin-left: -200px;
+        margin-top: -200px;
+    }
+
+    #circle-img{
+        width: 400px;
+    }
+
+    #service-card{
+        width: 50vw;
+        margin: 1.5rem auto;
+    }
+
+    #service-card svg{
+        width: 8vw;
+        height: 8vw;
+    }
+
+    #service-card h1 {
+        font-size: 2.5vw;
+    }
+
+    #service-card h2{
+        font-size: 2vw;
+    }
+
+    #service-card-button{
+        font-size: 1.8vw;
+        margin-bottom: 1rem;
+    }
+
+    #service-card-button a > i{
+        font-size: 1.5vw;
+    }
+
+    #workways h2{
+        font-size: 2vw;
+    }
+
+    #row-1{
+        margin-bottom: 7rem;
+    }
+
+    #func-title h2{
+        font-size: 2vw;
+    }
+
+    #contact-form-box{
+        width: 50vw;
+    }
+
+    #contact input {
+        font-size: 1.5vw;
+        width: 45vw;
+    }
+
+    #contact select{
+        font-size: 1.5vw;
+        width: 45vw;
+    }
+
+    #contact textarea{
+        font-size: 1.5vw;
+        width: 45vw;
+    }
+
+    #form-info{
+        width: 45vw;
+    }
+
+    #form-info h1{
+        text-align: center;
+        font-size: 1.9vw;
+    }
+
+    #contact li{
+        font-size: 1.5vw;
+    }
+
+    #contact-banner {
+        height: 30vh;
+    }
+
+    #contact-button{
+        font-size: 1.5vw;
+    }
+}   
+
+@media (max-width: 992px) {
+
+    #links{
+        margin-right: 7vw;
+    }
+
+    .nav-element{
+        font-size: 2.5vw;
+    }
+
+    #contact-btn{
+        font-size: 2.5vw;
+    }
+
+    #brand-title{
+        font-size: 2.5vw;
+        margin-left: 10vw;
+    }
+
+    #main{
+        height: 100vh;
+    }
+
+
+    #main-svg{
+        height: 40vw;
+    }
+
+    #main-title h2{
+        margin-bottom: 3vh;
+    }
+
+    #main-arrow{
+        font-size: 3vw;
+    }
+
+    #circle{
+        margin-left: -175px;
+        margin-top:-175px;
+    }
+
+    #circle-img{
+        width: 350px;
+    }
+
+    #about-text{
+        width: 65vw;
+    }
+
+    #about h3{
+        font-size: 2.3vw;
+    }
+
+    #about hr{
+        width: 40%;
+    }
+
+    #about h4{
+        font-size: 1.7vw;
+    }
+
+    #service-title{
+        font-size: 4vw;
+    }
+
+    #service-card{
+        width: 50vw;
+        margin: 2rem auto;
+    }
+
+    #service-card svg{
+        height: 10vw;
+        width: 10vw;
+    }
+
+    #service-card h1{
+        font-size: 3vw;
+    }
+
+    #service-card h2{
+        font-size: 2.5vw;
+    }
+
+    #service-card-button{
+        font-size: 2.5vw;
+        margin-bottom: 0.5rem;
+    }
+
+    #service-card-button a > i{
+        font-size: 2.3vw;
+    }
+
+    #func-container{
+        margin: 2rem auto;
+        width: 60vw;
+    }
+
+    #func-container svg{
+        width: 3vw;
+        margin-bottom: 1rem;
+    }
+
+    #workways h1{
+        font-size: 3vw;
+        font-weight: 400;
+    }
+
+    #workways h2{
+        font-size: 2.5vw;
+    }
+
+    #func-title h1{
+        font-size: 4vw;
+    }
+
+    #func-title h2{
+        font-size: 3vw;
+    }
+
+    #row-1{
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #main{
+        height: 100vh;
+    }
+
+    #links{
+        margin-right: 7vw;
+    }
+
+    .nav-element{
+        font-size: 2.5vw;
+    }
+
+    #contact-btn{
+        font-size: 2.5vw;
+    }
+
+    #brand-title{
+        font-size: 2.5vw;
+        margin-left: 10vw;
+    }
+
+    #main-hero{
+        text-align: center;
+        margin: 2vw;
+        margin-top: -10vh;
+    }
+
+    #main-title{
+        text-align: center;
+        margin: 3rem auto;
+        padding: 0;
+        width: fit-content;
+    }
+
+    #main-title h1{
+        font-size: 5vw;
+        margin-bottom: 5vh;
+    }
+
+    #main-title h2{
+        font-size: 3vw;
+        margin-bottom: 5vh;
+    }
+
+
+    #main-title button{
+        font-size: 2.5vw;
+    }
+
+    #main-title button:hover {
+        width: 25vw;
+    }
+
+    #main-title button > i{
+        margin-left: 1vw;
+        font-size: 2vw;
+        transition: all 0.4s;
+    }
+
+    #main-title button:hover > i{
+        margin-left: 5vw;
+    }
+
+    #main-svg{
+        height: 40vw;
+        margin-top: 1rem;
+    }
+
+    #main-arrow{
+        font-size: 3.5vw;
+        margin: auto;
+    }
+
+    #about-text{
+        width: 85vw;
+    }
+
+    #about h1{
+        font-size: 3vw;
+    }
+
+    #about h2{
+        font-size: 3vw;
+    }
+
+    #about h3{
+    font-size: 3vw;  
+    }
+
+    #about h4{
+        font-size: 2.5vw;
+    }  
+
+    #service-title{
+        width: 80vw;
+        font-size: 5vw;
+    }
+    
+    #service-card svg{
+        width: 13vw;
+        height: 10vw;
+    }
+
+    #service-card{
+        padding: 1rem;
+        margin: 2rem auto;
+        width: 65vw;
+    }
+
+    #service-card h1{
+        font-size: 4vw;
+    }
+
+    #service-card h2{
+        font-size: 3vw;
+    }
+
+    #service-card-button{
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+        font-size: 3vw;
+    }
+
+    #service-card-button a > i{
+        font-size: 2.5vw;
+        margin-left: 0rem;
+    }
+
+    #cards-container{
+        display: inline-block;
+    }
+
+    #func-container{
+        margin: 2rem auto;
+        width: 60vw;
+    }
+
+    #func-container svg{
+        width: 4vw;
+        margin-bottom: 1rem;
+    }
+
+    #workways h1{
+        font-size: 2.5vw;
+        font-weight: 400;
+    }
+
+    #workways h2{
+        font-size: 2.5vw;
+    }
+
+    #func-title h1{
+        font-size: 4vw;
+    }
+
+    #func-title h2{
+        font-size: 3.5vw;
+    }
+
+    #row-1{
+        margin-bottom: 1rem;
+    }
+
+    #contact-banner-h1{
+        font-size: 5vw;
+    }
+
+    #contact-form-box{
+        width: 60vw;
+    }
+
+    #form-info{
+        display: none;
+    }
+
+    #contact-form-box h1{
+        font-size: 4vw;
+    }
+
+    #contact input{
+        font-size: 2.5vw;
+        width: 55vw;
+        padding: 1vw;
+    }
+
+    #contact select{
+        width: 55vw;
+        font-size: 2.5vw;
+        padding: 1vw;
+    }
+
+    #contact textarea{
+        width: 55vw;
+        font-size: 2.5vw;
+        padding: 1vw;
+    }
+
+    #contact-button{
+        font-size: 2.5vw;     
+    }
+
+}
+
+@media (max-width: 576px){
+    
+    .navbar-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #message-cont{
+        font-size: 0.8rem;
+    }
+
+    .nav-element{
+        display: none;
+    }
+
+    .navbar-top ul{
+        margin:0;
+        padding: 0;
+    }
+
+    #main{
+        display: block;
+    }
+
+    #main-title{
+        text-align: center;
+    }
+
+    #contact-btn{
+        font-size: 0.8rem;
+        padding: 0;
+    }
+
+    #cf{
+        background-attachment: unset;
+    }
+
+    #brand-title{
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+
+    #main-hero{
+        width: fit-content;
+        margin-top: -20vh;
+        width: 100vw;
+        padding: 0;
+    }
+
+    #main-hero h1{
+        font-size: 8vw;
+        margin-bottom: 3vh;
+    }
+
+    #main-hero h2{
+        font-size: 6vw;
+        margin-bottom: 5vh;
+    }
+
+    #main-button a{
+        font-size: 1.2rem;
+        transition: all 0.5s;
+    }
+
+    #main-button a > i{
+        font-size: 1rem;
+        transition: all 0.5s;
+    }
+
+    #main-button{
+        width: fit-content !important;
+    }
+
+    #main-button:hover {
+        width: fit-content !important;
+    }
+
+    #main-svg{
+        display: none;
+    }
+
+    #main-arrow{
+        font-size: 1.5rem;
+    }
+
+    #main .wave1{
+        height: 100px;
+        background-size: 500px 100px;
+    }
+
+    #circle{
+        margin-left: -135px;
+        margin-top: -135px;
+    }
+
+    #circle-img{
+        width: 270px;
+    }
+
+    #about-text{
+        width: 90vw;
+    }
+
+    #about h1{
+        font-size: 1rem;
+    }
+
+    #about h2{
+        font-size: 1rem;
+    }
+
+    #about b{
+        display: none;
+    }
+
+    #about h3{
+        font-size: 1rem;
+    }
+
+    #about h4{
+        font-size: 0.9rem;
+    }
+
+    #about hr{
+        width: 60%;
+        margin: 1rem auto;
+    }
+
+    #service-title{
+        font-size: 6vw;
+        margin-bottom: 1rem;
+    }
+
+    #service-card{
+        margin: 1rem auto;
+        width: 80vw;
+    }
+
+    #service-card svg{
+        width: 15vw;
+        height: 14vw;
+    }
+
+    #service-card h1{
+        font-size: 5vw;
+        margin-bottom: 0.5rem;
+    }
+
+    #service-card h2{
+        font-size: 4vw;
+    }
+
+    #service-card-button{
+        font-size: 4vw;
+        margin-top: 2.3rem;
+    }
+
+    #service-card-button a > i{
+        font-size: 1rem;
+    }
+
+    #workways h1{
+        font-size: 1.5rem;
+    }
+
+    #func-container{
+        width: 80vw;
+    }
+
+    #workways svg{
+        width: 6vw;
+    }
+
+    #workways h2{
+        font-size: 1rem;
+    }
+
+    #func-title-h2{
+        font-size: 1.3rem !important;
+    }
+
+    #func-title-h2 b{
+        display: none;
+    }
+
+    #contact-banner-h1{
+        font-size: 1.5rem;
+    }
+
+    #contact-banner{
+        height: 20vh;
+        background-attachment: unset;
+    }
+
+    #contact-form-box{
+        width: 80vw;
+    }
+
+    #contact-form-box h1 {
+        font-size: 1.2rem;
+    }
+
+    #contact input{
+        width: 75vw;
+        font-size: 0.7rem;
+        padding: 0.7rem;
+        border: 1px solid #6d6d6db7;
+        box-shadow: none;
+    }
+
+    #contact select{
+        width: 75vw;
+        font-size: 0.7rem;
+        padding: 0.7rem;
+        border: 1px solid #6d6d6db7;
+        background: #ffffff;
+        box-shadow: none;
+    }
+
+    #contact textarea{
+        width: 75vw;
+        font-size: 0.7rem;
+        padding: 0.7rem;
+        border: 1px solid #6d6d6db7;
+        box-shadow: none;
+    }
+
+   .contact-btn{
+        font-size: 0.8rem;
+        padding: 0.3rem;
+        width: 75vw;
+    }
+
+    .contact-btn:focus{
+        color: #ffffff;
+        background-color: #222222;
+    }
+
+
+    #contact textarea:focus,input:focus,select:focus{
+        outline: none;
+        box-shadow:3px 3px 1px  #000000;
+    }
+}
+
+@media (max-width: 290px){
+    #main{
+        height: 100vh;
+    }
+
+    #main-title h1{
+        font-size: 10vw;
+    }
+
+    #main-title h2{
+        font-size: 7vw;
+    }
+
+    #main-title button{
+        font-size: 5vw;
+    }
+
+    #about h3{
+        font-size: 6vw;
+    }
+
+    #func-title h2{
+        font-size: 6vw;
+    }
+}
