@@ -282,8 +282,12 @@ span {
     margin-left: 4vw;
 }
 
+#main-svg-container{
+    margin-left: 20vw;
+}
+
 #main-svg{
-    width: 800px;
+    max-width: 300px;
     padding-bottom: 6vw;
 }
 
