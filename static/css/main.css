@@ -176,18 +176,18 @@ span {
 }
 
 #rectangle{
-    width: 30vw;
+    width: 500px;
 }
 
 #bg-rect2{
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 0;
     z-index: 0;
 }
 
 #rectangle2{
-    width: 30vw;
+    width: 500px;
 }
 
 #main {
