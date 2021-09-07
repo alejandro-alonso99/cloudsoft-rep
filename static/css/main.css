@@ -170,18 +170,18 @@ span {
 
 #bg-rect{
     position: absolute;
-    top: 10vh;
+    top: 10%;
     left: 0;
     z-index: 0;
 }
 
 #rectangle{
-    width: 30vh;
+    width: 30vw;
 }
 
 #bg-rect2{
     position: absolute;
-    top: 30vh;
+    top: 30%;
     left: 0;
     z-index: 0;
 }
