@@ -172,7 +172,7 @@ span {
     position: absolute;
     top: 10vh;
     left: 0;
-    z-index: 0;
+    z-index: -1000;
 }
 
 #rectangle{
