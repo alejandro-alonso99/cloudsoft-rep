@@ -190,6 +190,17 @@ span {
     width: 400px;
 }
 
+#bg-rect3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+#rectangle3{
+    width: 400px;
+}
+
 #main {
     background-color:#000000;
     overflow: hidden;
