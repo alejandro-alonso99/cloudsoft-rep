@@ -285,6 +285,7 @@ span {
 #main-svg{
     max-width: 35vw;
     padding-bottom: 6vw;
+    margin: auto;
 }
 
 #arrow-container{
