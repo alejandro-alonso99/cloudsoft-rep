@@ -283,10 +283,8 @@ span {
 }
 
 #main-svg{
-    height: 30vw;
+    width: 40vw;
     width: auto;
-    animation: pulse 6s forwards infinite ease-in-out;
-    margin-left: 7vw;
     padding-bottom: 6vw;
 }
 
