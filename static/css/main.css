@@ -203,7 +203,7 @@ span {
 
 #bg-rect4{
     position: absolute;
-    top: 20%;
+    top: 30%;
     right: 0;
     z-index: 0;
 }
@@ -260,7 +260,7 @@ span {
     width: fit-content;
     text-align: left;
     font-weight: bolder;
-    color: #2ec5ce;
+    color: #43B9DD;
     border: none;
     border-radius: 10px;
     background-color: #222222;
@@ -268,7 +268,7 @@ span {
 }
 
 #main-button:hover {
-    color: #009cff;
+    color: #ffffff;
     width: fit-content
 }
 
