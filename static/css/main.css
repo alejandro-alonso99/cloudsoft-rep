@@ -162,7 +162,7 @@ span {
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    background-image: url(/static/images/bg\ 1.jpg);
+    background-color: #43B9DD;
     background-position:right;
     background-attachment: fixed;
     background-size: cover;
