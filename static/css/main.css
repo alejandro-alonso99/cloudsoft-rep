@@ -176,7 +176,17 @@ span {
 }
 
 #rectangle{
-    width: 20vw;
+    max-width: 700px;
+}
+
+#bg-rect2{
+    top: 20vh;
+    left: 0;
+    z-index: 0;
+}
+
+#rectangle-2{
+    max-width: 500px;
 }
 
 #main {
