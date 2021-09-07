@@ -168,6 +168,11 @@ span {
     background-size: cover;
 }
 
+#bg-rect{
+    position: absolute;
+    top: 30vh;
+}
+
 #main {
     background-color:#000000;
     overflow: hidden;
