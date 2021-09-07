@@ -173,6 +173,10 @@ span {
     top: 30vh;
 }
 
+#rectangle{
+    width: 20vw;
+}
+
 #main {
     background-color:#000000;
     overflow: hidden;
@@ -184,6 +188,7 @@ span {
 }
 
 #main-hero{
+    position: absolute;
     padding: 10vw;
 }
 
