@@ -171,6 +171,7 @@ span {
 #bg-rect{
     position: absolute;
     top: 30vh;
+    left: 0;
 }
 
 #rectangle{
@@ -188,7 +189,6 @@ span {
 }
 
 #main-hero{
-    position: absolute;
     padding: 10vw;
 }
 
