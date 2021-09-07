@@ -108,7 +108,7 @@ body{
 
 #contact-btn {
     text-align: center;
-    color: #ffffff;
+    color: #222222;
     border-radius: 40px;
     font-weight: bolder;
     width: fit-content;
@@ -176,7 +176,7 @@ span {
 }
 
 #rectangle{
-    width: 500px;
+    width: 450px;
 }
 
 #bg-rect2{
@@ -198,6 +198,17 @@ span {
 }
 
 #rectangle3{
+    width: 400px;
+}
+
+#bg-rect4{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    z-index: 0;
+}
+
+#rectangle4{
     width: 400px;
 }
 
@@ -258,7 +269,6 @@ span {
 
 #main-button:hover {
     color: #009cff;
-    background-color: #ffffff;
     width: fit-content
 }
 
