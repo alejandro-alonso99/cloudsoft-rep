@@ -1436,6 +1436,10 @@ span {
         font-size: 1rem;
     }
 
+    #extra-text{
+        transform: translateY(-10%);
+    }
+
     #extra-text h2{
         font-size: 4vw;
     }
