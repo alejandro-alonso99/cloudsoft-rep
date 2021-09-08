@@ -515,6 +515,17 @@ span {
     font-weight:lighter
 }
 
+#extra-info-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+#extra-info-col h2{
+    font-weight: lighter;
+}
+
 #workways{
     overflow-x: hidden;
     height: fit-content;
@@ -967,17 +978,6 @@ span {
 
     #service-card-button a > i{
         font-size: 2.3vw;
-    }
-
-    #extra-info-col{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    #extra-info-col h2{
-        font-weight: lighter;
     }
 
     #func-container{
