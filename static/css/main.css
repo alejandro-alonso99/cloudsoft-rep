@@ -622,10 +622,7 @@ span {
     align-items: center;
     height: 0vh;
     width: 100vw;
-    background-image: url(/static/images/bg\ 1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #ffffff;
 }
 
 #contact-banner-h1{
@@ -1478,7 +1475,7 @@ span {
     }
 
     #contact-banner{
-        height: 0vh;
+        height: 10vh;
         background-attachment: unset;
     }
 
