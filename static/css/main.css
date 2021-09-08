@@ -973,7 +973,7 @@ span {
         display: flex;
         align-items: center;
         justify-content: center;
-        text-align: left;
+        text-align: center;
     }
 
     #extra-info-col h2{
