@@ -1007,11 +1007,13 @@ span {
         font-size: 2.3vw;
     }
 
+    #extra-info-col-text{
+        padding-right: 5vw;
+    }
+
     #extra-text h2{
         font-size: 3vw;
     }
-
-
 
     #func-container{
         margin: 2rem auto;
