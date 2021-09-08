@@ -533,15 +533,13 @@ span {
     padding-right: 10vw;
 }
 
-#extra-info-col-text h1{
+#extra-text {
     width: fit-content;
     margin: auto;
 }
 
-#extra-info-col-text h2{
+#extra-text h2{
     font-weight: lighter;
-    width: fit-content;
-    margin: auto;
 }
 
 #workways{
