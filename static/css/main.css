@@ -1007,9 +1007,12 @@ span {
         font-size: 2.3vw;
     }
 
-    #extra-info-col-svg{
+    #extra-info-col-svg svg{
         margin: 0 !important;
+        width: 45vw;
     }
+
+    #extra-info-col-svg
 
     #extra-info-col-text{
         padding-right: 5vw;
