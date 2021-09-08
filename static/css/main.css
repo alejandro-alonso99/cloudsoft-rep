@@ -1181,6 +1181,15 @@ span {
         display: inline-block;
     }
 
+    #extra-info-col-svg svg{
+        width: 60vw;
+    }
+
+    #extra-text{
+        text-align: center;
+    }
+    
+
     #func-container{
         margin: 2rem auto;
         width: 60vw;
