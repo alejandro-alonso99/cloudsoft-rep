@@ -620,7 +620,7 @@ span {
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 0vh;
+    height: 10vh;
     width: 100vw;
     background-color: #ffffff;
 }
@@ -905,7 +905,7 @@ span {
     }
 
     #contact-banner {
-        height: 0vh;
+        height: 10vh;
     }
 
     #contact-button{
