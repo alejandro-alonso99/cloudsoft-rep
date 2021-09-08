@@ -284,7 +284,7 @@ span {
 
 #main-svg{
     height: 40vw;
-    margin: auto;
+    width: auto;
 }
 
 #arrow-container{
