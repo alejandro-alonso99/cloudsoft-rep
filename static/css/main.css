@@ -283,8 +283,7 @@ span {
 }
 
 #main-svg{
-    max-width: 35vw;
-    padding-bottom: 6vw;
+    width: 35vw;
     margin: auto;
 }
 
