@@ -524,6 +524,7 @@ span {
 
 #extra-info-col-svg svg{
     width: 40vw;
+    margin-left: 20vw;
 }
 
 #extra-row{
@@ -1006,6 +1007,10 @@ span {
         font-size: 2.3vw;
     }
 
+    #extra-info-col-svg{
+        margin: 0 !important;
+    }
+
     #extra-info-col-text{
         padding-right: 5vw;
     }
@@ -1183,6 +1188,10 @@ span {
 
     #extra-info-col-svg svg{
         width: 60vw;
+    }
+
+    #extra-info-col-text{
+        padding: 5vw;
     }
 
     #extra-text{
