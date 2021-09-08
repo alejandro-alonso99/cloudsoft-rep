@@ -1442,7 +1442,7 @@ span {
     }
 
     #extra-text h2{
-        font-size: 4vw;
+        font-size: 1.5rem;
     }
 
     #workways h1{
@@ -1450,7 +1450,7 @@ span {
     }
 
     #func-container{
-        width: 80vw;
+        width: 90vw;
     }
 
     #workways svg{
