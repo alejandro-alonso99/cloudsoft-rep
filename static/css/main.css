@@ -522,9 +522,14 @@ span {
     text-align: left;
 }
 
+#extra-info-col-svg svg{
+    width: 30vw;
+}
+
 #extra-info-col-text{
     display: block;
     text-align: left;
+    padding-right: 10vw;
 }
 
 #extra-info-col-text h2{
