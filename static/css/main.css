@@ -519,12 +519,11 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: right;
 }
 
 #extra-info-col-svg svg{
     width: 40vw;
-    margin-left: 10vw;
 }
 
 #extra-row{
