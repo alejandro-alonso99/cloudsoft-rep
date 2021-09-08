@@ -858,6 +858,10 @@ span {
         font-size: 1.5vw;
     }
 
+    #extra-info-col-text{
+        padding-right: 10vw;
+    }
+
     #workways h2{
         font-size: 2vw;
     }
