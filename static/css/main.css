@@ -515,14 +515,19 @@ span {
     font-weight:lighter
 }
 
-#extra-info-col{
+#extra-info-col-svg{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: left;
 }
 
-#extra-info-col h2{
+#extra-info-col-text{
+    display: block;
+    text-align: left;
+}
+
+#extra-info-col-text h2{
     font-weight: lighter;
 }
 
