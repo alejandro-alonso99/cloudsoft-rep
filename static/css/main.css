@@ -616,11 +616,11 @@ span {
 }
 
 #contact-banner{
-    display: none;
+    display:flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 0vh;
     width: 100vw;
     background-image: url(/static/images/bg\ 1.jpg);
     background-position: center;
@@ -908,7 +908,7 @@ span {
     }
 
     #contact-banner {
-        height: 30vh;
+        height: 0vh;
     }
 
     #contact-button{
@@ -1478,7 +1478,7 @@ span {
     }
 
     #contact-banner{
-        height: 20vh;
+        height: 0vh;
         background-attachment: unset;
     }
 
