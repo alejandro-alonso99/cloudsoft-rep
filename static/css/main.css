@@ -523,7 +523,8 @@ span {
 }
 
 #extra-info-col-svg svg{
-    width: 30vw;
+    width: 40vw;
+    margin-left: 10vw;
 }
 
 #extra-info-col-text{
