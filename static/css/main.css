@@ -1442,15 +1442,19 @@ span {
     }
 
     #extra-text h2{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     #workways h1{
         font-size: 1.5rem;
+    }  
+
+    #func-title{
+        width: 90vw;
     }
 
     #func-container{
-        width: 90vw;
+        width: 80vw;
     }
 
     #workways svg{
