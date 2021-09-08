@@ -527,10 +527,16 @@ span {
     margin-left: 10vw;
 }
 
+#extra-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 #extra-info-col-text{
-    display: block;
     text-align: left;
-    padding-right: 10vw;
+    padding-right: 30vw;
 }
 
 #extra-text {
