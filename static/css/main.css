@@ -969,6 +969,17 @@ span {
         font-size: 2.3vw;
     }
 
+    #extra-info-col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+
+    #extra-info-col h2{
+        font-weight: lighter;
+    }
+
     #func-container{
         margin: 2rem auto;
         width: 60vw;
