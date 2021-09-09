@@ -55,7 +55,8 @@ body{
     font-weight: lighter;
     z-index: 10000;
     transition: all 0.2s;
-    background: transparent;
+    background: #ffffff;
+    border-bottom: 1px #43B9DD;
 }
 
 #message-cont{
@@ -120,7 +121,7 @@ body{
 }
 
 #brand-title i{
-    color: #DFEAEF;
+    color: #43B9DD;
     transition: all 0.3s;
 }
 
