@@ -175,7 +175,6 @@ span {
     width: 80vw;
     height: max-content;
     transition: all 1s;
-    transform: translateY(-20%);
 }
 
 #main-title h1 {
