@@ -5,43 +5,16 @@
     box-sizing: border-box;
 }
 
-@keyframes animate{
-    0%{
-        background-position-x: 0;
-    }
-
+@keyframes typing{
     100%{
-        background-position-x: -1000px;
+        left:100%;
+        margin: 0 -35px 0 35px;
     }
 }
 
-@keyframes animate2{
-    0%{
-        background-position-x: 0;
-    }
-
+@keyframes slide{
     100%{
-        background-position-x: 1000px;
-    }
-}
-
-@keyframes pulse{
-    0% {transform: scale(1);}
-
-    50%{transform: scale(1.1);}
-
-    100%{transform: scale(1);}
-
-}
-
-@keyframes drop-in {
-    20% {
-        opacity: 0;
-        transform: translateY(-20%);
-    }
-    30%, 100% {
-        opacity: 1;
-        transform: translateY(0);
+        top: -360px;
     }
 }
 
@@ -168,50 +141,6 @@ span {
     background-size: cover;
 }
 
-#bg-rect{
-    position: absolute;
-    top: 10%;
-    left: 0;
-    z-index: 0;
-}
-
-#rectangle{
-    width: 450px;
-}
-
-#bg-rect2{
-    position: absolute;
-    top: 45%;
-    left: 0;
-    z-index: 0;
-}
-
-#rectangle2{
-    width: 400px;
-}
-
-#bg-rect3{
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 0;
-}
-
-#rectangle3{
-    width: 400px;
-}
-
-#bg-rect4{
-    position: absolute;
-    top: 30%;
-    right: 0;
-    z-index: 0;
-}
-
-#rectangle4{
-    width: 400px;
-}
-
 #main {
     background-color:#000000;
     overflow: hidden;
@@ -225,6 +154,45 @@ span {
 #main-hero{
     padding: 10vw;
     z-index: 10;
+}
+
+.wrapper{
+    display: inline-flex;
+}
+
+.wrapper .static-txt{
+    color: #ffffff;
+    font-size: 3.5vw;
+}
+
+.wrapper .dynamic-txts{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow:hidden;
+}
+
+.dynamic-txts li{
+    color: #222222;
+    list-style: none;
+    font-size: 3.5vw;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+.dynamic-txts li span{
+    position: relative;
+}
+
+.dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #43B9DD;
+    border-left: 2px solid #222222;
+    animation: typing 1.5s steps(10) infinite;
 }
 
 #main-title {
