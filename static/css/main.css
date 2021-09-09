@@ -5,19 +5,6 @@
     box-sizing: border-box;
 }
 
-@keyframes typing{
-    100%{
-        left:100%;
-        margin: 0 -35px 0 35px;
-    }
-}
-
-@keyframes slide{
-    100%{
-        top: -360px;
-    }
-}
-
 b{
     text-decoration: none;
 }
@@ -125,7 +112,7 @@ body{
 
 
 span {
-    color: #43B9DD;
+    color: #222222;
 }
 
 #cf{
@@ -156,44 +143,6 @@ span {
     z-index: 10;
 }
 
-.wrapper{
-    display: inline-flex;
-}
-
-.wrapper .static-txt{
-    color: #ffffff;
-    font-size: 60px;
-}
-
-.wrapper .dynamic-txts{
-    margin-left: 15px;
-    height: 90px;
-    line-height: 90px;
-    overflow:hidden;
-}
-
-.dynamic-txts li{
-    color: #222222;
-    list-style: none;
-    font-size: 3.5vw;
-    position: relative;
-    top: 0;
-    animation: slide 6s steps(4) infinite;
-}
-
-.dynamic-txts li span{
-    position: relative;
-}
-
-.dynamic-txts li span::after{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #43B9DD;
-    border-left: 2px solid #222222;
-    animation: typing 1.5s steps(10) infinite;
-}
 
 #main-title {
     display: block;

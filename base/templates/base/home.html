@@ -66,15 +66,7 @@
           <div class="row" id="main-hero">
             <div class="col-12">
               <div id="main-title">
-                <div class="wrapper">
-                  <div class="static-txt">Software para</div>
-                  <ul class="dynamic-txts">
-                    <li><span>Empresas</span></li>
-                    <li><span>Emprendimientos</span></li>
-                    <li><span>Negocios</span></li>
-                    <li><span>Crecer</span></li>
-                  </ul>
-                </div>
+                <h1>Software para <span class="typing"></span></h1>
                 <h2>Creamos la solución de software que necesitás, ahora.</h2>
                 <button class="btn btn-dark" id="main-button"><a id="page-link" href="#contact-banner">Contáctenos<i class="fas fa-angle-double-right"></i></a></button>
               </div>
@@ -643,6 +635,15 @@
           duration:1000,
         });
       </script>
+
+    <script src="{% static /js/typed.js %}"></script>
+    <script>
+      var typed = new Typed('.typing', {
+    strings: ['Empreseas', 'Emprendimientos','Negocios','Crecer'],
+    smartBackspace: true, // Default value
+    loop:true
+    });
+    </script>
     </body> 
     <script src="https://kit.fontawesome.com/d743caab95.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
