@@ -242,7 +242,7 @@ span {
 #main-arrow{
     width: fit-content;
     font-size: 1.8vw;
-    color: #000000;
+    color: #ffffff;
     animation: pulse 1.5s forwards infinite ease-in-out;
 }
 
