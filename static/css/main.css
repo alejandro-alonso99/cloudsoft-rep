@@ -5,6 +5,28 @@
     box-sizing: border-box;
 }
 
+@keyframes animate
+{
+    0%{
+        background-position-x: 0;
+    }
+
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate2
+{
+    0%{
+        background-position-x: 0;
+    }
+
+    100%{
+        background-position-x: -1000px;
+    }
+}
+
 b{
     text-decoration: none;
 }
@@ -142,7 +164,6 @@ span {
     padding: 10vw;
     z-index: 10;
 }
-
 
 #main-title {
     display: block;
