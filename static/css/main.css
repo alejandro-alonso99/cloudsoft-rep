@@ -146,6 +146,7 @@ span {
     height: 100vh;
     width: 100vw;
     background-color: #43B9DD;
+    background-image: linear-gradient(to right top, #ffffff, #eceefb, #d3e0f8, #b3d3f3, #8cc7ec, #78c2e8, #60bee3, #43b9dd, #43b9dd, #43b9dd, #43b9dd, #43b9dd);
     background-position:right;
     background-attachment: fixed;
     background-size: cover;
