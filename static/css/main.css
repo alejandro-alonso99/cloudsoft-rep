@@ -100,12 +100,12 @@ body{
 }
 
 #contact-btn:hover{
-    color: #ffffff;
+    color: #43B9DD;
     transform: translateX(-10%);
 }
 
 .nav-element:hover{
-    color: #DFEAEF;
+    color: #43B9DD;
     transform: translateX(-10%)
 }
 
