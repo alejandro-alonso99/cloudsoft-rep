@@ -29,6 +29,7 @@
 
 b{
     text-decoration: none;
+    color: #43B9DD;
 }
 
 body{
@@ -169,7 +170,7 @@ span {
     display: block;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     padding: 3vw 5vw;
     width: 80vw;
     height: max-content;
@@ -181,7 +182,7 @@ span {
 #main-title h1 {
     font-family: 'Questrial', sans-serif;
     font-size: 3.5vw;
-    color: #222222;
+    color: #ffffff;
     margin-bottom: 2vh;
     font-weight: bold;
 }
@@ -190,7 +191,7 @@ span {
     font-size: 3vw;
     font-weight: lighter;
     margin-bottom: 5vh;
-    color: #222222;
+    color: #ffffff;
 }
 
 #main-button {
@@ -201,12 +202,12 @@ span {
     color: #43B9DD;
     border: none;
     border-radius: 10px;
-    background-color: #222222;
+    background-color: #ffffff;
     transition: width 1s;
 }
 
 #main-button:hover {
-    color: #ffffff;
+    color: #222222;
     width: fit-content
 }
 
