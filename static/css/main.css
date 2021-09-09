@@ -162,7 +162,7 @@ span {
 
 .wrapper .static-txt{
     color: #ffffff;
-    font-size: 3.5vw;
+    font-size: 60px;
 }
 
 .wrapper .dynamic-txts{
@@ -201,7 +201,7 @@ span {
     justify-content: center;
     text-align: left;
     padding: 3vw 5vw;
-    width: 50vw;
+    width: 80vw;
     height: max-content;
     border-radius: 10px;
     transition: all 1s;
