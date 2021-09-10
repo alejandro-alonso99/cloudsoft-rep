@@ -880,7 +880,16 @@ span {
 
 
     .nav-element{
+        font-size: 2vw;
         margin-right: 1.5vw;
+    }
+
+    #contact-btn{
+        font-size: 2vw;
+    }
+
+    #brand-title{
+        font-size: 2vw;
     }
 
     #main-svg{
