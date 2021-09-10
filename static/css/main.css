@@ -27,6 +27,22 @@
     }
 }
 
+@keyframes pulse{
+
+    0%{
+        transform: translateY(0%) ;
+    }
+
+    50%{
+        transform: translateY(-5%);
+    }
+
+    100%{
+        transform: translateY(0%);
+    }
+
+}
+
 b{
     text-decoration: none;
     color: #43B9DD;
@@ -193,7 +209,7 @@ span {
 #main-title h2{
     font-size: 2vw;
     font-weight: lighter;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
     color: #ffffff;
 }
 
@@ -228,6 +244,7 @@ span {
     height: 25vw;
     width: auto;
     margin: auto 10vw;
+    animation: pulse 2s infinite;
 }
 
 #arrow-container{
