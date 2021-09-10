@@ -62,7 +62,6 @@ body{
 
 .navbar-top{
     top: 0;
-    position: fixed;
     text-align: center; 
     padding: 0;
     width: 100vw;
