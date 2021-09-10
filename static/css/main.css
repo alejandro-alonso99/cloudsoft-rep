@@ -72,7 +72,7 @@ body{
     transition: all 0.2s;
     background: transparent;
     padding: 10vw;
-    padding-top: 0 ;
+    padding-top: 0.5rem ;
 }
 
 #message-cont{
