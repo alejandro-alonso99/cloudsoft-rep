@@ -48,6 +48,11 @@ b{
     color: #43B9DD;
 }
 
+c {
+    color: #222222;
+    font-weight: lighter;
+}
+
 body{
     margin:0;
     padding: 0;
@@ -122,7 +127,6 @@ body{
 
 .nav-element:hover{
     color: #ffffff;
-    border-bottom: 1px solid #ffffff;
 }
 
 #brand-title{
@@ -1348,7 +1352,7 @@ span {
         font-size: 1rem;
     }
 
-    #about b{
+    #about c{
         display: none;
     }
 
