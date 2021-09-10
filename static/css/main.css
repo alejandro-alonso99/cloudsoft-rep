@@ -879,6 +879,10 @@ span {
 @media (max-width: 992px) {
 
 
+    .nav-element{
+        margin-right: 1.5vw;
+    }
+
     #main-svg{
         height: 40vw;
     }
