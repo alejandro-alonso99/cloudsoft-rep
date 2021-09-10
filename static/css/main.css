@@ -735,7 +735,7 @@ span {
     }
 
     #main-hero{
-        margin-top: -20%;
+        
     }
 
     .nav-element{
@@ -753,7 +753,6 @@ span {
 
     #brand-title{
         font-size: 2vw;
-        margin-left: 20vw;
     }
 
     #main-title h1{
@@ -884,7 +883,7 @@ span {
 @media (max-width: 992px) {
 
     #links{
-        margin-right: 7vw;
+        
     }
 
     .nav-element{
