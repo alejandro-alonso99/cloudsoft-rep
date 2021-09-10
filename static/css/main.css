@@ -1014,34 +1014,21 @@ span {
         height: 100vh;
     }
 
-    #links{
-        margin-right: 7vw;
-    }
-
     .nav-element{
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 
     #contact-btn{
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 
     #brand-title{
-        font-size: 2.5vw;
+        font-size: 2vw;
         margin-left: 10vw;
     }
 
     #main-hero{
-        text-align: center;
-        margin: 2vw;
-        margin-top: -10vh;
-    }
-
-    #main-title{
-        text-align: center;
-        margin: 3rem auto;
-        padding: 0;
-        width: fit-content;
+        text-align: left;
     }
 
     #main-title h1{
