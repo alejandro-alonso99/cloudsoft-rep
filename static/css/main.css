@@ -878,17 +878,6 @@ span {
 
 @media (max-width: 992px) {
 
-    .nav-element{
-        font-size: 2vw;
-    }
-
-    #contact-btn{
-        font-size: 2vw;
-    }
-
-    #brand-title{
-        font-size: 2vw;
-    }
 
     #main-svg{
         height: 40vw;
