@@ -241,7 +241,7 @@ span {
 }
 
 #main-svg{
-    height: 25vw;
+    height: 35vw;
     width: auto;
     margin: auto 10vw;
     animation: pulse 2s infinite;
