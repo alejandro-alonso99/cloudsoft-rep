@@ -56,7 +56,6 @@ body{
     z-index: 10000;
     transition: all 0.2s;
     background: transparent;
-    border-bottom: 1px solid #43B9DD;
 }
 
 #message-cont{
@@ -164,6 +163,10 @@ span {
 }
 
 #main-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     padding: 10vw;
     padding-top:0;
     z-index: 10;
@@ -201,7 +204,7 @@ span {
     font-weight: bolder;
     color: #43B9DD;
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: #ffffff;
     transition: width 1s;
 }
