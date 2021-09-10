@@ -143,6 +143,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: left;
     height: 100vh;
     width: 100vw;
     background-color: #43B9DD;
@@ -174,14 +175,14 @@ span {
     justify-content: center;
     text-align: center;
     padding: 3vw 5vw;
-    width: 80vw;
+    width: 40vw;
     height: max-content;
     transition: all 1s;
 }
 
 #main-title h1 {
     font-family: 'Questrial', sans-serif;
-    font-size: 3.5vw;
+    font-size: 3vw;
     color: #ffffff;
     margin-bottom: 2vh;
     font-weight: bold;
