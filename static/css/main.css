@@ -55,7 +55,7 @@ body{
     font-weight: lighter;
     z-index: 10000;
     transition: all 0.2s;
-    background: #ffffff;
+    background: transparent;
     border-bottom: 1px solid #43B9DD;
 }
 
@@ -99,12 +99,12 @@ body{
 }
 
 #contact-btn:hover{
-    color: #43B9DD;
+    color: #ffffff;
     transform: translateX(-10%);
 }
 
 .nav-element:hover{
-    color: #43B9DD;
+    color: #ffffff;
     transform: translateX(-10%)
 }
 
@@ -120,12 +120,12 @@ body{
 }
 
 #brand-title i{
-    color: #43B9DD;
+    color: #ffffff;
     transition: all 0.3s;
 }
 
 #brand-title:hover {
-    color: #DFEAEF;
+    color: #222222;
     transform: translateX(-10%);
 }
 
@@ -173,9 +173,8 @@ span {
     display: block;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    padding: 3vw 5vw;
-    width: 40vw;
+    text-align: left;
+    width: 45vw;
     height: max-content;
     transition: all 1s;
 }
