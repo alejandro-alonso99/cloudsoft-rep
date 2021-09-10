@@ -87,12 +87,11 @@ body{
 
 #navbar-top ul{
     list-style-type:none;
-    text-align: center;
+    text-align: left;
     transition: all 0.2s;
 }
 
 #links{
-    margin-right: 15vw;
     cursor: pointer;
 }
 
@@ -126,8 +125,6 @@ body{
 }
 
 #brand-title{
-    margin-left: 25vw;
-    margin-bottom: 15px;
     font-weight: bold;
     float: left;
     font-family: 'Kanit', sans-serif;
