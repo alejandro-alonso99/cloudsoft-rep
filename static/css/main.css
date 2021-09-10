@@ -74,6 +74,7 @@ body{
     background: transparent;
     padding: 10vw;
     padding-top: 0 ;
+    margin-top: 3vw;
 }
 
 #message-cont{
@@ -102,7 +103,6 @@ body{
     font-size: 1.5vw;
     margin-right: 2vw;
     transition: all 0.3s;
-    margin-bottom: 15px;
 }
 
 #contact-btn {
