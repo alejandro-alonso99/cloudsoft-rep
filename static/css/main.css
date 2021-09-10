@@ -1010,9 +1010,6 @@ span {
 
 @media (max-width: 768px) {
 
-    #main{
-        height: 80vh;
-    }
 
     .nav-element{
         font-size: 2.5vw;
@@ -1051,7 +1048,7 @@ span {
 
     #main-title button > i{
         margin-left: 1vw;
-        font-size: 2.3vw;
+        font-size: 2.3vw !important;
         transition: all 0.4s;
     }
 
