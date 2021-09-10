@@ -734,17 +734,13 @@ span {
         height: fit-content;
     }
 
-    #main-hero{
-        
-    }
-
     .nav-element{
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     #contact-btn{
         width: fit-content;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     #main-svg{
@@ -752,7 +748,7 @@ span {
     }
 
     #brand-title{
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     #main-title h1{
