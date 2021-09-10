@@ -122,7 +122,7 @@ body{
 
 .nav-element:hover{
     color: #ffffff;
-    transform: translateX(-10%)
+    border-bottom: 1px solid #ffffff;
 }
 
 #brand-title{
@@ -140,7 +140,6 @@ body{
 
 #brand-title:hover {
     color: #ffffff;
-    transform: translateX(-10%);
 }
 
 #brand-title:hover i{
