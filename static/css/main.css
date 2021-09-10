@@ -64,7 +64,6 @@ body{
     top: 0;
     position: absolute;
     text-align: left; 
-    padding: 0;
     width: 100vw;
     height: fit-content;
     color: #222222;
@@ -98,7 +97,6 @@ body{
 
 .nav-element{
     display: inline;
-    float: right;
     font-weight: bolder;
     font-size: 1.5vw;
     margin-right: 2vw;
@@ -126,7 +124,6 @@ body{
 
 #brand-title{
     font-weight: bold;
-    float: left;
     font-family: 'Kanit', sans-serif;
     font-size: 1.5vw;
     transition: all 0.3s;
