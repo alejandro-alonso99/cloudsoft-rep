@@ -1027,6 +1027,11 @@ span {
         text-align: center;
     }
 
+    #main-title{
+        text-align: center;
+        width: 80vw;
+    }
+
     #main-title h1{
         font-size: 5vw;
         margin-bottom: 5vh;
@@ -1038,7 +1043,7 @@ span {
     }
 
     #main-svg{
-        height: 35vw;
+        height: 30vw;
     }
 
     #main-title button{
