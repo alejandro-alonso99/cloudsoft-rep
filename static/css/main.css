@@ -1236,6 +1236,10 @@ span {
         text-align: center;
     }
 
+    #nav-brand-title ul{
+        padding: 0;
+    }
+
     #message-cont{
         font-size: 0.8rem;
     }
@@ -1253,7 +1257,7 @@ span {
         text-align: center;
         width: 100vw;
         margin: 0 !important;
-        padding: 10vw;
+        padding: 5vw;
     }
 
     #contact-btn{
