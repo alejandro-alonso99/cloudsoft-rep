@@ -1024,7 +1024,7 @@ span {
     }
 
     #main-hero{
-        text-align: left;
+        text-align: center;
     }
 
     #main-title h1{
@@ -1037,6 +1037,9 @@ span {
         margin-bottom: 5vh;
     }
 
+    #main-svg{
+        height: 35vw;
+    }
 
     #main-title button{
         font-size: 2.5vw;
