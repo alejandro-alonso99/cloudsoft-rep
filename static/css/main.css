@@ -1229,6 +1229,13 @@ span {
         text-align: center;
     }
 
+    #navbar-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
     #message-cont{
         font-size: 0.8rem;
     }
@@ -1271,7 +1278,7 @@ span {
     }
 
     #main-hero h2{
-        font-size: 4vw;
+        font-size: 5vw;
         margin-bottom: 5vh;
     }
 
@@ -1294,7 +1301,8 @@ span {
     }
 
     #main-svg{
-        height: 40vw;
+        height: 50vw;
+        margin-top: 10vh;
     }
 
     #main-arrow{
