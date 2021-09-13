@@ -1275,12 +1275,12 @@ span {
     }
 
     #main-hero h1{
-        font-size: 8vw;
+        font-size: 6vw;
         margin-bottom: 3vh;
     }
 
     #main-hero h2{
-        font-size: 6vw;
+        font-size: 4vw;
         margin-bottom: 5vh;
     }
 
@@ -1303,7 +1303,7 @@ span {
     }
 
     #main-svg{
-        height: 30vw;
+        height: 35vw;
     }
 
     #main-arrow{
