@@ -1244,7 +1244,7 @@ span {
 
     #main-title{
         text-align: center;
-        width: 80vw;
+        width: 100vw;
         margin: 0 !important;
         padding: 0;
     }
@@ -1260,7 +1260,6 @@ span {
     }
 
     #main-hero{
-        width: fit-content;
         margin: 0;
         margin-top: -20vh;
         padding: 0;
