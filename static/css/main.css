@@ -1248,6 +1248,9 @@ span {
 
     #main-title{
         text-align: center;
+        width: 80vw;
+        margin: 0;
+        padding: 0;
     }
 
     #contact-btn{
@@ -1300,7 +1303,7 @@ span {
     }
 
     #main-svg{
-        display: none;
+        height: 30vw;
     }
 
     #main-arrow{
