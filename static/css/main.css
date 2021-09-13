@@ -763,6 +763,10 @@ span {
         font-size: 2vw;
     }
 
+    #main-button a > i {
+        font-size: 1.9vw;
+    }
+
     #arrow-container{
         margin-left: 1.5;
     }
@@ -1054,10 +1058,8 @@ span {
         width: 25vw;
     }
 
-    #main-title button > i{
-        margin-left: 1vw;
-        font-size: 2.3vw !important;
-        transition: all 0.4s;
+    #main-button a > i {
+        font-size: 2.3vw;
     }
 
     #main-title button:hover > i{
