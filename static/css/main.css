@@ -1229,7 +1229,7 @@ span {
         text-align: center;
     }
 
-    #navbar-items{
+    #nav-brand-title{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1253,7 +1253,7 @@ span {
         text-align: center;
         width: 100vw;
         margin: 0 !important;
-        padding: 0;
+        padding: 10vw;
     }
 
     #contact-btn{
@@ -1301,7 +1301,7 @@ span {
     }
 
     #main-svg{
-        height: 50vw;
+        height: 60vw;
         margin-top: 10vh;
     }
 
